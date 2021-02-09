@@ -1,0 +1,219 @@
+h3{
+  text-align: center;
+  /* font-weight: 100; */
+  margin: 4% 0 0 0;
+  font-family: 'Montserrat-bold';
+  font-size: 150%;
+  width: 100%;
+}
+
+/* TITLE */
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  padding-bottom: 4%;
+}
+
+.ul-nav{
+  margin-left: 25%
+
+}
+
+.title-h1{
+  font-size: 3.5rem;
+  font-family: 'Montserrat-black';
+  line-height: 1.5;
+  width: 170%;
+  text-align: left;
+  /* color: #fff; */
+}
+
+/* NAVIGATION BAR */
+.navbar{
+  padding: 4rem 14rem 4.5rem;
+}
+.navbar-brand{
+  /* padding: 3% 15%; */
+  margin-right: 30%;
+  font-family: 'Ubuntu';
+  font-weight:  bold;
+  font-size: 2.5rem;
+  /* color: #fff; */
+  margin-bottom: 0;
+}
+.nav-item{
+  font-family: 'Montserrat',sans-serif;
+  margin-right: 15%;
+}
+
+.head0{
+  padding-bottom: 3%;
+}
+
+.head1{
+  padding: 3% 15%;
+}
+.title-img-div{
+  padding: 0 6%;
+}
+.title-img{
+  transform: rotate(25deg);
+  height: 70%;
+  width: 22%;
+  position: absolute;
+  /* top:215px;
+  left: 820px; */
+}
+
+/* DOWNLOAD BUTTONS */
+.download-btn{
+  margin: 3% 2% 3% 0;
+}
+
+/* FEATURE SECTION */
+
+#features{
+  padding: 8% 15%;
+  background-color: #fff;
+  position: relative;
+  /* z-index: 1;  */ /*We dont need to set z-index as feature section is below title section so by html flow it will automatically come above*/
+}
+
+.icon{
+font-size: 4rem;
+color: #ef8172;
+text-align: center;
+margin: 7% 0 1% 40%;
+}
+.icon:hover{
+  color:#ff4c68;
+}
+.feature-text{
+  font-family: 'Montserrat',san-serif;
+  line-height: 1.5;
+  text-align: center;
+  /* width: 75%; */
+  margin: 3% 0 10% 10%;
+  color: #8f8f8f;
+}
+
+/* TESTIMONIAL SECTION */
+#testimonials{
+
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+
+}
+.carousel-item{
+  padding: 8% 15%;
+}
+.carousel-img{
+  height: 100px;
+  width: 10%;
+  margin-top: 3%;
+}
+.carousel-item{
+  padding-bottom: 7%;
+}
+.testimonial-text{
+    font-family: 'Montserrat-black',sans-serif;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+ /* PRESS */
+ #press{
+   text-align: center;
+   background-color: #ef8172;
+ }
+
+ .press-logo{
+   width: 15%;
+   margin: 20px 20px 20px 20px;
+ }
+
+ /* PRICING */
+#price{
+  padding: 3% 0;
+}
+.price-head{
+  font-family: 'Montserrat-bold';
+  font-size: 3rem;
+}
+.card-col{
+  padding: 13% 3.7%;
+}
+.card-header{
+  padding: 1rem 1.3rem;
+}
+.col{
+  margin: 0 0;
+}
+.card-title-text{
+  font-family: 'Montserrat-bold';
+  font-size: 3rem;
+}
+
+@media (max-width:991px) {
+  #title{
+    text-align: center;
+  }
+  .title-h1{
+    text-align: center;
+    width:60%;
+    margin-left: 20%;
+
+  }
+  .container-fluid{
+    width:100%;
+  }
+  .title-img{
+    position: static;
+    transform: rotate(0);
+    height: 100%;
+    width: 50%;
+
+  }
+
+}
+
+/* LAST PART - 1 */
+#last-part1{
+  padding: 7% 15%;
+  color: white;
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.last-head{
+  font-family:'Montserrat-bold';
+  font-size: 3.6rem;
+}
+.last-button{
+  /* padding: 0.7% 1.7%; */
+  font-size: 1.4rem;
+  margin: 4% 1.4%;
+}
+
+/* LAST PART - 2 */
+#last-part2{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.icon-last{
+  margin: 1% 1%;
+}
+
+.copyright{
+  font-size: 80%;
+  color: #8f8f8f;
+  line-height: 3rem;
+}
+.copy-text{
+  display: inline-block;
+  color: #8f8f8f;
+  line-height: 3rem;
+  font-size: 107%;
+}
